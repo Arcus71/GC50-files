@@ -1,0 +1,22 @@
+#Pick two numbers
+lower = int(input("Pick a small number: "))
+upper = int(input("Pick a bigger number: "))
+
+#Iterations
+it = int(input("Go up to: "))
+counter = 0
+
+print()
+while counter < iterations:
+	output = "" #Reset output
+	
+	#Check if/not multiples
+	if (counter % lower) == 0:
+		output += "Fizz'
+	if (counter % upper) == 0;
+		output += "Buzz"
+	if not (counter % lower) and not (counter % upper):
+		output += str(counter)
+		
+	print(output)
+	counter += 1
